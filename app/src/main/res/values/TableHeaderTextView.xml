@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Style for table header text views -->
+        <style name="TableHeaderTextView">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:padding">8dp</item>
+            <item name="android:fontFamily">@font/poppinssemibold</item>
+            <item name="android:textSize">12sp</item>
+            <item name="android:gravity">center</item>
+        </style>
+
+    <style name="TableHeaderTextView.">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:fontFamily">@font/poppinssemibold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    </resources>

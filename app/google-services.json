@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "915184247440",
+    "firebase_url": "https://apkpangan-default-rtdb.firebaseio.com",
+    "project_id": "apkpangan",
+    "storage_bucket": "apkpangan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915184247440:android:2b1f085f526efbbbf2ae15",
+        "android_client_info": {
+          "package_name": "com.example.apkpangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915184247440-lmrk9uf33rliikskdkrsikdv75apm9sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvKrx6_WpcUofWeafhML40sRN72JyVOF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915184247440-lmrk9uf33rliikskdkrsikdv75apm9sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915184247440:android:0898af7a4cdb0e03f2ae15",
+        "android_client_info": {
+          "package_name": "com.pangan.kotatomohon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915184247440-lmrk9uf33rliikskdkrsikdv75apm9sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvKrx6_WpcUofWeafhML40sRN72JyVOF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915184247440-lmrk9uf33rliikskdkrsikdv75apm9sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

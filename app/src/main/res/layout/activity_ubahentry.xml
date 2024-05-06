@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".UbahEntry">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailentry"
+        android:text="Ubah Entry"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <!-- CardView untuk menampilkan informasi akun -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailentry"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="4dp">
+
+        <!-- LinearLayout untuk menampilkan data akun -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:gravity="start"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:id="@+id/tanggalTextView" />
+
+            <Spinner
+                android:id="@+id/spinnerKomoditi"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:entries="@array/komoditi_array" />
+
+            <EditText
+                android:id="@+id/editTextJumlahPasokan"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/jumlah_pasokan"
+                android:inputType="text|number"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextAsalPasokan"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/asal_pasokan"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextHargaPasokan"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/harga_pasokan"
+                android:inputType="numberDecimal"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextStok"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/stok"
+                android:inputType="text|number"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextHarga"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/harga"
+                android:inputType="numberDecimal"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/spinnerKet"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:entries="@array/ket"
+                android:textColor="@color/black"/>
+            <!-- Tambahkan elemen XML lainnya untuk input data lainnya -->
+
+            <Button
+                android:id="@+id/buttonSimpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_simpan" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ApkPangan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dinas Pangan</string>
+    <string name="nav_header_subtitle">Kota Tomohon</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+    <string name="tanggal_hari_ini">Hari ini: %1$s</string>
+    <string-array name="duration_array">
+    <item>Mingguan</item>
+    <item>Bulanan</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_entry">Entry Survey</string>
+    <string name="menu_geomap">Geomap</string>
+    <string name="menu_pasokan">Pelaporan Pasokan</string>
+    <string name="menu_stok">Pelaporan Stok</string>
+    <string name="menu_tabel">Tabel Harga</string>
+    <string name="menu_grafik">Grafik Harga</string>
+    <string name="menu_kelola">Kelola Akun</string>
+    <string name="menu_lapor">Pelaporan</string>
+    <string name="menu_minggu">Mingguan</string>
+    <string name="menu_bulan">Bulanan</string>
+    <string name="menu_harga">Harga</string>
+    <string name="menu_tambah">Tambah Akun</string>
+    <string name="menu_detail">Detail Akun</string>
+    <string name="menu_ubah">Ubah Akun</string>
+    <string name="logout">Logout</string>
+    <string name="montly">Monthly</string>
+    <string name="entry_data">Entry Data Survey</string>
+    <string name="jumlah_pasokan">Jumlah Pasokan</string>
+    <string name="asal_pasokan">Asal Pasokan</string>
+    <string name="harga_pasokan">Harga Pasokan</string>
+    <string name="stok">Stok</string>
+    <string name="harga">Harga</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="button_simpan">Simpan</string>
+    <string name="gambar">Gambar Profil</string>
+    <string name="pilih_foto">Pilih Foto Profil</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="konfirmasi">Konfirmasi Kata Sandi</string>
+    <string name="detail">Detail</string>
+    <string name="foto">Foto Profil</string>
+    <string name="nama">Nama :</string>
+    <string name="email2">Email :</string>
+    <string name="tampilkanpass">Tampilkan Kata Sandi</string>
+    <string name="button_ubah">Ubah Akun</string>
+    <string name="logo">Logo Kota Tomohon</string>
+    <string name="apk">Aplikasi Pangan</string>
+    <string name="dinas">Dinas Pangan Kota Tomohon</string>
+    <string name="kota">Kota Tomohon</string>
+    <string name="masuk">Masuk</string>
+    <string name="lupa">Lupa Kata Sandi?</string>
+    <string name="reset">Reset Password</string>
+    <string name="deskripsi">Deskripsi Gambar</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

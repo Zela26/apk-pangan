@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_entry"
+            android:icon="@drawable/ic_menu_entry"
+            android:title="@string/menu_entry" />
+        <item
+            android:id="@+id/nav_tampil"
+            android:icon="@drawable/ic_detail"
+            android:title="Detail Entry"/>
+        <item
+            android:id="@+id/nav_geomap"
+            android:icon="@drawable/ic_menu_geomap"
+            android:title="@string/menu_geomap"/>
+        <item
+            android:id="@+id/nav_entryform"
+            android:icon="@drawable/ic_menu_entry"
+            android:title="Entry Stok"/>
+        <item
+            android:id="@+id/nav_grafik"
+            android:icon="@drawable/ic_grafik"
+            android:title="Grafik Harga"/>
+        <item
+            android:id="@+id/nav_lapor"
+            android:icon="@drawable/ic_menu_pasokanstok"
+            android:title="@string/menu_lapor">
+            <menu>
+                <item
+                    android:id="@+id/nav_mingguan"
+                    android:icon="@drawable/ic_menu_pasokanstok"
+                    android:title="@string/menu_minggu"/>
+                <item
+                    android:id="@+id/nav_bulanan"
+                    android:icon="@drawable/ic_menu_pasokanstok"
+                    android:title="@string/menu_bulan"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_kelola"
+            android:icon="@drawable/ic_menu_kelola"
+            android:title="@string/menu_kelola">
+            <menu>
+                <item
+                    android:id="@+id/menu_tambah_akun"
+                    android:icon="@drawable/ic_menu_tambah"
+                    android:title="@string/menu_tambah" />
+                <item
+                    android:id="@+id/menu_detail_akun"
+                    android:icon="@drawable/ic_detail"
+                    android:title="@string/menu_detail" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <!-- Judul Laporan -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Mingguan"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/minggu"/>
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/bulan"/>
+
+    <Spinner
+        android:id="@+id/spinnerYear"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/tahun"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3,4,5,6,7,8"
+        android:layout_marginTop="16dp"
+        android:id="@+id/reportTable"
+        android:background="#DDDDDD">
+
+        <!-- Judul Kolom Tabel -->
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Tanggal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Komoditi" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Jumlah" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Asal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Harga Pasokan" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Stok" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Harga" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Ket" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Tombol untuk Menyimpan ke PDF -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan ke PDF"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnSaveToPDF" />
+
+</LinearLayout>
+</ScrollView>

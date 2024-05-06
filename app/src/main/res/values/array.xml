@@ -1,0 +1,75 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string-array name="komoditi_array">
+        <item>Komoditi</item>
+        <item>Bawang Merah</item>
+        <item>Bawang Putih</item>
+        <item>Beras Medium</item>
+        <item>Beras Premium</item>
+        <item>Cabai Merah Keriting</item>
+        <item>Cabai Rawit</item>
+        <item>Daging Ayam</item>
+        <item>Daging Babi</item>
+        <item>Daging Sapi</item>
+        <item>Garam</item>
+        <item>Gula Pasir</item>
+        <item>Jagung Pipilan</item>
+        <item>Ikan Kembung/Tude</item>
+        <item>Ikan Tongkol/Cakalang</item>
+        <item>Kedelai biji kering</item>
+        <item>Minyak Goreng Curah</item>
+        <item>Minyak Goreng Kemasan</item>
+        <item>Telur Ayam Ras</item>
+        <item>Tepung Terigu</item>
+        <item>Tepung Terigu Kemasan</item>
+        <item>Tomat</item>
+    </string-array>
+
+    <string-array name="pelaporan">
+        <item>Mingguan</item>
+        <item>Bulanan</item>
+    </string-array>
+
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Enumerator</item>
+        <item>Pimpinan</item>
+    </string-array>
+
+    <string-array name="bulan">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string-array name="tahun">
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+
+    <string-array name="minggu">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="ket">
+        <item>Depan</item>
+        <item>Tengah</item>
+        <item>Belakang</item>
+    </string-array>
+</resources>

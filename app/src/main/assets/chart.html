@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<canvas id="myChart"></canvas>
+<script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Harga Komoditi',
+                    data: [],
+                    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+                    borderColor: 'rgba(0, 0, 0, 1)',
+
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        function updateChart(data) {
+            var chartData = JSON.parse(data);
+            myChart.data.labels = chartData.labels;
+            myChart.data.datasets[0].data = chartData.data;
+            myChart.update();
+        }
+    </script>
+</body>
+</html>

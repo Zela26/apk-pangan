@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".UbahAkun">
+
+    <!-- Judul Detail Akun -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailakun"
+        android:text="@string/menu_ubah"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <!-- CardView untuk menampilkan informasi akun -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailakun"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="4dp">
+
+        <!-- LinearLayout untuk menampilkan data akun -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgProfil"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_person"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@string/foto"/>
+
+            <!-- EditText untuk nama pengguna baru -->
+            <EditText
+                android:id="@+id/editNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_pengguna"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:inputType="text"
+                android:autofillHints="username"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <!-- EditText untuk email baru -->
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:autofillHints="emailAddress"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <!-- EditText untuk kata sandi baru -->
+            <EditText
+                android:id="@+id/editKataSandi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:textSize="16sp"
+                android:inputType="textPassword"
+                android:autofillHints="password"
+                android:padding="16dp"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/spinnerRole"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"/>
+            <!-- Tombol untuk menyimpan perubahan -->
+            <Button
+                android:id="@+id/btnSimpanPerubahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_simpan"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
